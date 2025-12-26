@@ -11,7 +11,7 @@ load_dotenv()
 # Configuration
 API_KEY = os.getenv("LLM_OPENROUTER_KEY")
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = os.getenv("MODEL", "openai/gpt-4o-mini")  # Default to a reliable, cost-effective model
+MODEL = os.getenv("MODEL", "openai/gpt-5-mini")  
 
 def load_prompts(filepath: str = "prompts.yaml") -> dict:
     """Loads prompt templates from a YAML file."""

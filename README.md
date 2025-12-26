@@ -25,7 +25,7 @@ This tool simplifies articles into a target language and level, and generates co
     Create a `.env` file in the project root and add your API key:
     ```env
     LLM_OPENROUTER_KEY=your_api_key_here
-    MODEL=openai/gpt-4o-mini  # Optional: Change the model (default: openai/gpt-4o-mini)
+    MODEL=openai/gpt-5-mini 
     ```
 
 3.  **Prepare Input**:
