@@ -1,0 +1,23 @@
+simplify_article: |
+  Goal: Rewrite the article below in {language}.
+  Level: {level}
+    - Adapt the vocabulary and grammar to be suitable for a learner at this level.
+    - Maintain the original meaning but simplify complex structures.
+
+  Article:
+  {article}
+
+generate_questions: |
+  Goal: Come up with 3 questions in {language} for the story below.
+    The questions should be more than surface level, and should require the student to think about the story or the subjects.
+    The question itself should be based on the story.
+    Order the questions from easiest to hardest. 
+  Level: {level}
+    The questions should challenge the user at this level, but the wording should be understandable to a user at this level.
+  Structure:
+    - List the 3 questions.
+    - Output the separator '### ANSWERS ###'.
+    - List the answers to the questions.
+
+  Article:
+  {simplified_article}

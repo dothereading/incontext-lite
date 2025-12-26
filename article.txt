@@ -1,0 +1,135 @@
+
+Anki is Already Dead
+what 98,000 flashcard reviews and japanese taught me about learning with llms
+Miguel Conner
+Aug 21, 2025
+
+I went through a phase where I Anki’d every useful-seeming Japanese word I came across as well as all of the standard 2,136 kanji. I was teaching English in Japan at the time, which meant I was thinking about language learning all day. I’d arrived with no knowledge of the language and a resolve to be able to read a contemporary fiction novel on my flight home, so I felt I needed all the help I could get. That’s when I found Anki.
+
+
+Anki is a spaced-repetition flashcard app that makes you review things just before you’d forget them.1 As of today I have 98,005 reviews in Anki, enough to understand its power and to distill a few learning principles. All this set me up well to understand that the future of learning would change when in late 2022 the LLM kicked down the door, tracked mud across the carpet, ate everything in the fridge, and demanded more snacks.
+
+Some Learning Principles I Picked Up and How I Applied Them
+What I discovered through my somewhat obsessive Japanese experiment isn’t really about Japanese at all; these principles apply to almost any kind of learning. Anki put them to work in one way, as I’ll show next, but the real story is that they can now be pushed far beyond what Anki made possible.
+
+Rule 1: If you are having fun, you learn faster
+If you are having fun, you are engaged, which means you are focused and you will automatically retain things better. Fun might come from novelty, frequent progress, and an alignment of direction with where you want to go. Things like frustration, stagnation, and repetition are boring, and should be avoided at all costs.
+
+Anki here succeeds with direction and progress. Making relevant cards and applying them immediately made the process of learning very enjoyable because I was quickly rewarded with the feeling of progress.
+
+Rule 2: You need to be challenged but not too challenged
+Language learners chase something called i+1 material - content exactly one step above the learner’s current level, as described in Krashen's Input Hypothesis. A good tutor naturally adjusts to keep you in this zone, which is probably why tutoring remains the gold standard for learning anything.2 Why does i+1 work? I think this works because the brain uses all of its power to figure out one thing that is usually within the realm of figuring out. This work comes in the form of deeply processing the meaning of the thing you are trying to figure out, which helps improve retention.3
+
+With Anki, I could manually approximate this by finding sentences with exactly one unknown word.
+
+Rule 3: Bottom-up learning beats top-down learning
+Your brain is a pattern recognition machine. It’s always better to look at the low level information yourself and make your own patterns instead of memorizing lots of broad rules that describe these patterns.4 This is especially true of language learning, where speaking and listening at real time doesn’t give you the time to make the grammatical “computations” on the fly that you would have to make if you were relying on these rules.
+
+Anki is naturally a bottom-up approach to learning, since it’s built on individual units of knowledge. To work well, this bottom-up approach should match the kinds of problems you solve in real life, like say, figuring out the meaning of a word in a sentence using context.
+
+Rule 4: Real world human interactions trump any tool
+Real world experiences have many built-in layers (visual, auditory, emotional) that make information stick better.5 They also elicit more intense emotional reactions, which also helps material stick better. And real world experiences serve as a check to make sure that your learning is heading in the right direction.
+
+Writing cards that trigger memories of experiences I had in the real world always produced better cards. At the same time, many things that are important in communicating in a language cannot be turned into cards because many of the things we learn are subtle things we learn by mirroring people. As useful a tool as Anki could be, it is a narrow form of study, and spending time around native speakers doing real things usually beats anything you can learn from Anki.
+
+Anki’s Fatal Flaw
+Learning how to leverage a tool like Anki helped me advance quickly, but the effort required to source sentences, craft cards, and get through reviews drained some of the fun out of the process. This work was tedious. But the real flaw was more subtle and took me a while to figure out.
+
+Anki’s fatal flaw is that you think you are learning content, but you’re actually just memorizing rectangles.
+
+The enemy is the static card. It always has the same front, formatting, and font. After enough reps I would latch on to little cues that are irrelevant to the meaning of the card, meaning I would skip the very important step of thinking deeply about the content. A fairly common occurrence was that a word in the sentence would remind me about the meaning of the sentence, giving away the answer to the target word, which is quite different from piecing together the meaning of the target word in a brand new sentence.
+
+And the whole time I was getting the cards right and the green progress bars would go up. Then when I would see the word in the wild and I realized I only knew its rectangle.
+
+The static card is not just a minor detail, but the essence of Anki. There are workarounds, but the reality is that this design doesn’t match how humans actually learn best. If only there were a way to generate fresh contexts on every review, forcing genuine comprehension rather than pattern matching.
+
+Which is why, when ChatGPT burst onto the scene in November 2022, my first thought was: “This just killed Anki.”
+
+Thanks for reading! Subscribe for free to receive new posts and support my work.
+
+Enter the LLM
+The first time I tried ChatGPT I was in a classroom studying for my Optimization final when my friend showed me a new chat app. My first impression was:
+
+This app has just solved the problem of natural language production.
+
+This technology would be an amazing supplement for the learning principles described above.
+
+This will bring about personalized tutoring like in Spock’s school in Star Trek (which always seemed amazing to me even as a kid).
+
+Now, two and a half years later and with much more experience, here's what I'd actually be willing to claim: With well-thought-out scaffolding and good data, tools that apply LLMs will outperform Anki in any task.
+
+I’ll support this claim by suggesting an improved version of Anki, and providing examples of tools built around LLMs.
+
+Why LLMs Surpass Anki
+Consider that by definition LLMs are trained to produce natural language. Their architecture is such that they are trained to understand the context of the surrounding words extremely well. They are very good at generating text at a specific language difficulty level.6
+
+If the main enemy is the static Anki card, then the solution is the dynamic card that maintains the same level of challenge while eliminating superficial memorization. It's about ensuring the mental effort goes toward understanding content rather than memorizing rectangles, making it at least as good as any static card card of the same kind. Dynamic cards are simply better because:
+
+Dynamic cards are less repetitive and therefore more fun. (Rule 1)
+
+You are forced to think deeply about the meaning in its context, rather than relying on superficial cues—this reinforces a deeper processing and therefore greater likelihood of retention. (Rule 3)
+
+Seeing the word in different contexts gives you a better sense of how words are actually used, especially in languages with very different roots. (Rule 4)
+
+They can simulate real life a little bit better. LLMs with speech capabilities can speak to you, and generate sentences around realistic scenarios, creating content that uses additional layers to make the experience a bit stickier. You can do this with an Anki card as well, and I often did, but having it automated with an LLM makes it more manageable. (Rule 4)
+
+LLMs are good at creating variations of example sentences with a specific word at a specific language level, making this a viable approach. (Rule 2)
+
+I challenge you to think of a static card that would not be improved by making it a dynamic card. Even in other fields like medicine, you’d prefer having a card that’s asking about a specific illness in slightly different ways, as it will come up in different ways in the real world.
+
+And while Anki doesn’t have some of these features integrated yet, there are a variety of projects that are exploring how to combine Anki and LLMs. But rather than take an LLM and add it to Anki to create dynamic cards, I think we’ll see the emergence of specialized dynamic apps built around LLMs but have internal components that utilize SRS principles or evolved SRS behind the scenes.
+
+Applying LLMs Deliberately
+We're starting to see purpose-built tools that leverage LLMs for specific learning tasks that work well. While there are many such tools, I want to profile two uses cases.
+
+What does a post-Anki language learning app look like? I couldn’t find one I liked, so I built one.
+
+The inContext notebook generates a few paragraphs worth of content adjusted to your i+1 level in your target language, with some additional comprehension questions and dynamic flashcards generated from the content. This is exactly the kind of bottom-up learning I was doing manually with Anki but now made into a coherent and personalized experience. If a tool like this tracks words you’re studying behind the scenes and naturally weaves in these words (SRS-style) into content tailored to your interests, why would you bother using a tool like Anki?
+
+
+
+
+Let’s jump for a moment from languages to physics, and I’ll present a proper study that used LLMs in a very specific way to achieve, quite frankly, incredible results. This was a study conducted in Harvard’s freshman physics course, and showed that providing supplementary AI lessons resulted in students learning twice as much as those in a control group that received similarly structured in-person active learning sessions. This AI tutor was carefully applied within a larger framework designed by professors with years of teaching experience. They created prompts with full knowledge of the common pitfalls and misunderstandings students can have, making sure that the model adapted to the student’s level.
+
+Graph showing that base knowledge is the same for Pre score, post score, active lecture, and post score AI. 
+
+The knowledge post score AI was 4.4 compared to the post score active lecture which was 3.6. 
+
+
+The researchers posit that many of the gains were due to the instant feedback students got from the AI as they worked through the problems, as well as the self-paced structure of the course. More importantly, students in the AI group were significantly more engaged and motivated, as measured in the study. This works not instead of good teaching, but because of it.
+
+What both of these tools demonstrate is that by exploiting things we already know about how humans learn while simultaneously playing to the adaptive strengths of LLMs, we can create an incredibly compelling learning tool.
+
+Where LLMs Struggle
+LLMs have a well-documented problem with hallucinations. The number of hallucinations decreased steadily since ChatGPT 3 with frontier models hitting a 1-4% hallucination rate in some benchmarks. Then came reasoning models, which hallucinate significantly more, with some models like o3 hallucinating 33% of responses in one benchmark. As it stands now, it seems like hallucinations won’t be going anywhere, putting learners in a bit of a catch-22 since hallucinations are best caught by domain experts, but learners are precisely the opposite of this.
+
+For language learning specifically, the hallucination risk is asymmetric. A frontier LLM will reliably produce grammatically correct, natural-sounding text but can stumble when explaining the edge cases of a grammatical rule. This mirrors research from Anthropic on model interpretability showing that what models write and what they think isn’t always aligned.
+
+But the frontier model hallucination rates sound worse than they are. When you narrow the scope to a specific learning domain and add good data, thoughtful design, and proper evals, hallucination rates drop. The Harvard physics study used careful prompts and years worth of data on specific problems to ensure that responses were high quality. I expect that in the short-term at least, the best educational tools will be designed by domain experts and rely on extremely relevant data included using techniques such as RAG, RL, or prompt engineering to achieve really low hallucination rates.
+
+You Can Just Learn Things
+After thousands of custom cards and hundreds of hours spent on Anki, I realized that Anki, for all it’s brilliance, was built for another era of learning.
+
+In this small corner of learning, one I’ve spent a lot of time thinking about, it’s clear that LLMs can make a dramatic impact on self-studying. I’m sure spaced repetition is correct, and that the forgetting curve is an important part of the equation, but flashcards were the best solution with the tech that was available. Now that every session can have dynamic, novel, and contextual content, why would you pick anything else?
+
+These tools are already here, and more are coming. LLMs can track what you know, store it, surface it when you're about to forget it, and wrap it in fresh context every time. Anki is already dead—killed by a technology that does everything it does but better.
+
+So in the coming world where you can just learn things, the only question left is: what will you choose to learn?
+
+1
+Gwern has a very comprehensive overview of Spaced Repetition Systems if you want to go down the rabbit hole.
+
+2
+This 1984 paper by Benjamin Bloom found that the average student receiving one-to-one tutoring using mastery learning techniques scored better than 98% of students in the control class!
+
+3
+There are two famous papers (1, 2) in psychology that show that the deeper you process information—especially in a semantic (meaning-based) way—the better your later recall of that information will be. Shallow processing (which they defined as focusing on the way a word looks or sounds) leads to much poorer recall than semantic processing. I remember trying this in a Psych course I took in college and it was incredible to see the results!
+
+4
+I love this explanation of how to learn math by Grant Sanderson of 3blue1brown, because it so closely matches my lived experience studying physics in undergrad.
+
+5
+Contextual binding is a theory that suggests memories are formed by binding together information about an item (what) with details about the context in which it was experienced (such as where and when). You can see why this could be a big downside to Anki.
+
+6
+This paper looks at how effectively GPT-4 or fine-tuned Llama2 models and adjust the difficulty level of their output. The answer is that they can do it very effectively.
