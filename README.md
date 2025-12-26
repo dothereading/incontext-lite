@@ -1,4 +1,4 @@
-# Article Simplifier
+# inContext Lite: Simplify an Article for Language Learning
 
 This tool simplifies articles into a target language and level, and generates comprehension questions to test understanding. It uses an LLM (via OpenRouter) to process the text. This is meant to be a quick, customizable version of the inContext Notebook. For the full experience, check out [incontextlearning.com](https://incontextlearning.com). 
 
