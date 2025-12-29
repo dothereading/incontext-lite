@@ -36,12 +36,26 @@ This tool simplifies articles into a target language and level, and generates co
 Run the script from the terminal:
 
 ```bash
-python3 simplify.py
+python3 main.py [article_path] [--language LANGUAGE] [--level LEVEL]
 ```
 
-Follow the prompts to enter:
-1.  **Target Language** (e.g., "French", "Japanese")
-2.  **Target Level** (e.g., "Beginner", "N3", "B2")
+### Examples
+
+**Interactive Mode (prompts for input):**
+```bash
+python3 main.py
+```
+
+**With Arguments:**
+```bash
+python3 main.py my_article.txt --language Spanish --level B2
+```
+
+**Mix and Match:**
+```bash
+python3 main.py --language French
+# Will use default article.txt and prompt for level
+```
 
 The script will generate a new file in the `simplifications/` folder named `simplified_YYYYMMDD_HHMMSS.txt` containing:
 - The simplified article.

@@ -2,6 +2,7 @@ import os
 import sys
 import yaml
 import requests
+import argparse
 from datetime import datetime
 from dotenv import load_dotenv
 
@@ -74,17 +75,30 @@ def main():
     # 1. Load resources
     prompts = load_prompts()
     
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description="Simplify an article and generate questions.")
+    parser.add_argument("article", nargs="?", default="article.txt", help="Path to the article file")
+    parser.add_argument("--level", help="Target level (e.g., A2, Intermediate)")
+    parser.add_argument("--language", help="Target language")
+    args = parser.parse_args()
+
     try:
-        with open("article.txt", "r", encoding="utf-8") as f:
+        with open(args.article, "r", encoding="utf-8") as f:
             article = f.read()
     except FileNotFoundError:
-        print("Error: article.txt not found. Please create it with the text you want to simplify.")
+        print(f"Error: {args.article} not found. Please create it or provide a valid path.")
         sys.exit(1)
 
-    # 2. Get user input
+    # 2. Get user input (if not provided via CLI)
     print("--- Article Simplifier ---")
-    language = input("Target Language: ").strip()
-    level = input("Target Level (e.g., A2, Intermediate): ").strip()
+    
+    language = args.language
+    if not language:
+        language = input("Target Language: ").strip()
+        
+    level = args.level
+    if not level:
+        level = input("Target Level (e.g., A2, Intermediate): ").strip()
 
     if not language or not level:
         print("Error: Language and Level are required.")
